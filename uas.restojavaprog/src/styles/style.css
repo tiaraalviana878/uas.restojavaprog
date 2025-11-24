@@ -1,0 +1,44 @@
+.root {
+    -fx-font-family: "Inter", "Segoe UI", Roboto, Arial;
+    -fx-background-color: #728678;
+}
+
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #020202;
+}
+
+.menu-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+    -fx-padding: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0.0, 0, 2);
+}
+
+.menu-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+}
+.menu-price {
+    -fx-font-size: 13px;
+    -fx-text-fill: #6b6b6b;
+}
+
+.icon-button {
+    -fx-min-width: 36;
+    -fx-min-height: 28;
+    -fx-background-radius: 10;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-color: linear-gradient(#23af41, #0d5718);
+    -fx-text-fill: white;
+}
+
+.confirm-button {
+    -fx-background-color: linear-gradient(#66bb6a, #43a047);
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-background-radius: 10;
+    -fx-padding: 8 12 8 12;
+}
